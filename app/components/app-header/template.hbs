@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="row align-items-baseline">
+    <div class="col">
+      {{loc 'appTitle'}}
+    </div>
+    <div class="col col-md-auto">
+      {{#bs-dropdown tagName="span" as |dd|}}
+        {{#dd.toggle}}<span class="glyphicon glyphicon-menu-hamburger"></span>{{/dd.toggle}}
+        {{#dd.menu align="right" as |menu|}}
+          {{#menu.item}}
+            {{#link-to "index"}}Home{{/link-to}}
+          {{/menu.item}}
+          {{menu.divider}}
+          {{#menu.item}}
+            {{#link-to "index"}}Dropdowns{{/link-to}}
+          {{/menu.item}}
+        {{/dd.menu}}
+      {{/bs-dropdown}}
+    </div>
+  </div>
+</div>

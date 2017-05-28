@@ -1,0 +1,6 @@
+.app-header {
+  padding: $spacer-x $spacer-y;
+  .dropdown-toggle::after {
+    display: none;
+  }
+}
