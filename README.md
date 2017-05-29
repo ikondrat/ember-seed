@@ -22,7 +22,7 @@ git clone --depth=1 https://github.com/ikondrat/ember-seed.git <your-project-nam
 `yarn install`
 
 ## Running / Development
-`yarn run`
+`yarn start`
 
 ### Running Tests
 
