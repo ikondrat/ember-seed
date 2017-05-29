@@ -1,7 +1,9 @@
-# ember-seed
+# Ember-seed  — the seed for Ember-cli apps
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project is an application skeleton for Ember-cli web app. 
+You can use it to quickly bootstrap your ember webapp projects and dev environment for these projects.
+
+## Start new Project
 
 ## Prerequisites
 
@@ -9,23 +11,18 @@ You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
 ## Installation
+```
+git clone --depth=1 https://github.com/ikondrat/ember-seed.git <your-project-name>
+```
 
-* `git clone <repository-url>` this repository
-* `cd ember-seed`
-* `npm install`
+### Install dependencies
+`yarn install`
 
 ## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
+`yarn run`
 
 ### Running Tests
 
@@ -37,14 +34,3 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
