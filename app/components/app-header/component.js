@@ -6,7 +6,6 @@ export default Ember.Component.extend({
 
   actions: {
     search() {
-      debugger;
     }
   }
 });
